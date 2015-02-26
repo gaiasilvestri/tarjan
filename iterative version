@@ -2,7 +2,7 @@
   % GAIA SILVESTRI - APRIL 2014
   % input: an adjacency matrix (graph). Non-zero cells are edges or active synapses.
   % output: the graph's strongly connected components (subgraphs where every node can be reached by every other node)
-  
+  & the program plots the count of strongly connected components found.
   % Each vertex of the graph appears in exactly one of the strongly connected components. 
   % Any vertex that is not on a directed cycle forms a strongly connected component all by itself: 
   % for example, a vertex whose in-degree or out-degree is 0, or any vertex of an acyclic graph.
