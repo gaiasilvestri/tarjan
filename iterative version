@@ -1,7 +1,7 @@
   % TARJAN'S algorithm - ITERATIVE IMPLEMENTATION
   % GAIA SILVESTRI - APRIL 2014
   % input: an adjacency matrix (graph). Non-zero cells are edges or active synapses.
-  % output: the graph's strongly connected components (
+  % output: the graph's strongly connected components (subgraphs where every node can be reached by every other node)
   
   % Each vertex of the graph appears in exactly one of the strongly connected components. 
   % Any vertex that is not on a directed cycle forms a strongly connected component all by itself: 
